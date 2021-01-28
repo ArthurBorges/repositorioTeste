@@ -1,3 +1,43 @@
-h1{
-    color: brown;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #180F33 0%, #220863 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Rubik";
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixaLogin{
+    background: #32236D;
+    color: #fff;
+    height: 403px;
+    width: 566px;
+    left: 438px;
+    top: 394px;
+    border-radius: 20px;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    min-height: 15%;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(./fonts/Rubik-VariableFont_wght.ttf),
+         url(./fonts/Rubik-Italic-VariableFont_wght.ttf);
 }
